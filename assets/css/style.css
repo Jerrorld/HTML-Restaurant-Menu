@@ -84,3 +84,36 @@ th {
     border: 1px solid black;
     padding: 5px;
 }
+
+.highlight {
+    color: white;
+    text-shadow: 0 0 5px black;
+}
+
+.footer {
+    background-image: linear-gradient(beige, rgb(159, 231, 170));
+    padding: 5px;
+}
+
+main ul {
+    list-style-type: none;
+    padding-right: 35px;
+}
+
+.symbols {
+    text-align: left;
+}
+
+.black-text {
+    color: black;
+}
+
+.fa-star {
+    color: yellow;
+    text-shadow: 0 0 1px black;
+}
+
+.fa-fire {
+    color: red;
+    text-shadow: 0 0 1px black;
+}

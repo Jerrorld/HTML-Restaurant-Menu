@@ -5,6 +5,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="/assets/css/style.css" type="text/css">
+    <link 
+    rel="stylesheet" 
+    href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" 
+    integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" 
+    crossorigin="anonymous"/>
 </head>
 <body>
     <nav>
@@ -16,17 +21,24 @@
                 <a href="./about.html">About</a>
             </li>
             <li>
-                <a href="./menu.html">Menu</a>
+                <a href="./menu.html" class="highlight">Menu</a>
             </li>
             <li>
                 <a href="./contact.html">Contact</a>
             </li>
         </ul>
+        <img id="banner" src="/assets/images/banner.png" alt="restaurant banner">
+        <div id="holiday">
+            <p><strong>*</strong> In observance of Independence day (<strong>July 4</strong>), the store will be closed. Sorry for the inconvenience. </p>
+        </div>
     </nav>
-    <img id="banner" src="/assets/images/banner.png" alt="restaurant banner">
 <main>
     <h1>Our Menu</h1>
     <img src="/assets/images/shrimp-skewers.jpg" alt="shrimp skewers">
+    <div class="symbols">
+        <p class="black-text"><i class="fa fa-star" aria-hidden="true"></i> = Popular</p>
+        <p class="black-text"><i class="fa fa-fire" aria-hidden="true"></i> = Spicy</p>
+    </div>
     <h2>Appetizers</h2>
     <table>
         <tr>
@@ -34,7 +46,7 @@
             <th>price</th>
         </tr>
         <tr>
-            <td>Chicken Satay</td>
+            <td><i class="fa fa-star" aria-hidden="true"></i> Chicken Satay</td>
             <td>$7.95</td>
         </tr>
         <tr>
@@ -42,7 +54,6 @@
             <td>$6.95</td>
         </tr>
     </table>
-
     <h2>Lunch</h2>
     <table>
         <tr>
@@ -54,7 +65,7 @@
             <td>$9.95</td>
         </tr>
         <tr>
-            <td>Red Curry</td>
+            <td><i class="fa fa-star" aria-hidden="true"></i> <i class="fa fa-fire" aria-hidden="true"></i> Red Curry</td>
             <td>$9.95</td>
         </tr>
         <tr>
@@ -62,15 +73,14 @@
             <td>$8.95</td>
         </tr>
         <tr>
-            <td>Tom Ka Soup</td>
+            <td><i class="fa fa-fire" aria-hidden="true"></i> Tom Kha Soup</td>
             <td>$8.95</td>
         </tr>
         <tr>
-            <td>Tom Yum Soup</td>
+            <td><i class="fa fa-fire" aria-hidden="true"></i> Tom Yum Soup</td>
             <td>$8.95</td>
         </tr>
     </table>
-
     <h2>Dinner</h2>
     <table>
         <tr>
@@ -86,7 +96,7 @@
             <td>$10.49</td>
         </tr>
         <tr>
-            <td>Rad Nah</td>
+            <td>Rad Na</td>
             <td>$10.49</td>
         </tr>
     </table>
@@ -101,7 +111,7 @@
                 <td>$3.99</td>
             </tr>
             <tr>
-                <td>Mango Sticky Rice</td>
+                <td><i class="fa fa-star" aria-hidden="true"></i> Mango Sticky Rice</td>
                 <td>$5.99</td>
             </td>
         </table>
@@ -113,6 +123,10 @@
             </tr>
             <tr>
                 <td>Thai Iced Coffee</td>
+                <td>$3.49</td>
+            </tr>
+            <tr>
+                <td><i class="fa fa-star" aria-hidden="true"></i> Thai Iced Tea</td>
                 <td>$3.49</td>
             </tr>
             <tr>
@@ -140,5 +154,9 @@
             </tr>
         </table>
     </main>
+    <footer class="footer">
+        <p><em>"The sweetness of food doesn't last long, but the sweetness of good words do." </em></p>
+        <p>- Thai Proverb</p>
+    </footer>
 </body>
 </html>
